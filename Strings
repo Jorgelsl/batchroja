@@ -1,0 +1,5 @@
+var1 = "Hola Mundo"
+var2 = "Python"	
+
+print(var1.uppper())
+print(var2.lower())

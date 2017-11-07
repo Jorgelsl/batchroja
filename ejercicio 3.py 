@@ -1,0 +1,31 @@
+'''
+print("Del 1 al 1000")
+cuenta = 0
+for i in range(1,10):
+	print(i)
+
+
+print("Multiplo de dos")
+cuenta = 0
+for i in range(1,100):
+		if i % 2 == 0:
+			print(i)
+
+print ("ELEFANTE")
+var ="ELEFANTE"
+cuenta = 0
+for i in var:
+	if i == "E":
+		cuenta = cuenta + 1
+		if cuenta == 3:
+			print ("Encontrada")
+'''
+
+x = int(input("Ingresa numero de articulos \n"))
+
+var = 10.5 * x
+if x < 5:
+	print("No hay descuento para ti chavo" + str(var))
+elif x > 5:
+	print ("Con nuestro descuenton del 5 porciento te salio en " + str(var * .5))
+

@@ -1,0 +1,4 @@
+if x == 25
+	print("true")
+else:
+	print("false")
